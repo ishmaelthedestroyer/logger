@@ -39,6 +39,15 @@ The `global` value represents uncaught exceptions. Instead of having to take out
 
 ![alt tag](http://i.imgur.com/zHR7RX7.png)
 
+Without configuring anything, the logic defaults to:
+
+<pre>
+mode: 'development'
+sentry: '/api/sentry'
+output: [ 'debug', 'info', 'warn', 'error']
+notify: [ 'warn', 'error', 'global' ]
+</pre>
+
 ##Notes
 Developed by <a href='http://twitter.com/ishmaelsalive'>Ishmael</a>. <br />
 
