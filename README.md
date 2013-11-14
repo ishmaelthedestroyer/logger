@@ -37,7 +37,7 @@ config =
 
 The `global` value represents uncaught exceptions. Instead of having to take out all the logs throughout controllers and services, simply change the configuration to what you want outputted and which notifications you want to receive. Output to the console is colored and looks like this:
 
-![alt tag](https://raw.github.com/ishmaelthedestroyer/logger/Logger-2.png)
+![alt tag](http://i.imgur.com/zHR7RX7.png)
 
 ##Notes
 Developed by <a href='http://twitter.com/ishmaelsalive'>Ishmael</a>. <br />
