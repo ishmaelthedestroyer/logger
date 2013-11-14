@@ -45,7 +45,7 @@ Without configuring anything, the logic defaults to:
 mode: 'development'
 sentry: '/api/sentry'
 output: [ 'debug', 'info', 'warn', 'error']
-notify: [ 'warn', 'error', 'global' ]
+notify: []
 </pre>
 
 ##Notes
